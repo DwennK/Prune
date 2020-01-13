@@ -1,0 +1,39 @@
+﻿<Window x:Class="Sugar_Core.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sugar_Core"
+        mc:Ignorable="d"
+        Title="Orange" Height="204" Width="300" ResizeMode="NoResize" >
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblValuee" Content="Value" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                <TextBox x:Name="tbxValue" Text="Value" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblTime" Content="Time" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+                <TextBox x:Name="tbxTime" Text="Time" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblTrendSymbol" Content="Trend Symbol" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+                <TextBox x:Name="tbxTrendSymbol" Text="TrendSymbol" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lbltrend_words" Content="trend_words" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+                <TextBox x:Name="tbxtrend_words" Text="trend_words" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblmmol" Content="mmol" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+                <TextBox x:Name="tbxmmol" Text="mmol" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblfull" Content="full" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
+                <TextBox x:Name="tbxfull" Text="full" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
