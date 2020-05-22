@@ -5,32 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sugar_Core"
         mc:Ignorable="d"
-        Title="Prune" Height="204" Width="300" ResizeMode="NoResize" Icon="prune-64.png" >
+        Title="Prune" Height="204" Width="300" ResizeMode="NoResize" Icon="prune-64.png" 
+        Background="#515151">
     <Grid>
         <StackPanel Orientation="Vertical">
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblValuee" Content="Value" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
-                <TextBox x:Name="tbxValue" Text="Value" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+                <Label x:Name="lblValuee" Content="Value" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="90"/>
+                <TextBox x:Name="tbxValue" Text="Value" TextWrapping="Wrap" Width="120"  TextAlignment="Center"  Background="#444444" BorderBrush="#FF2A2A2A" BorderThickness="2" VerticalAlignment="Center" Foreground="White"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblTime" Content="Time" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
-                <TextBox x:Name="tbxTime" Text="Time" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+                <Label x:Name="lblTime" Content="Time" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="90"/>
+                <TextBox x:Name="tbxTime" Text="Time" TextWrapping="Wrap" Width="120"  TextAlignment="Center"  Background="#444444" BorderBrush="#FF2A2A2A" BorderThickness="2" VerticalAlignment="Center" Foreground="White"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblTrendSymbol" Content="Trend Symbol" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
-                <TextBox x:Name="tbxTrendSymbol" Text="TrendSymbol" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+                <Label x:Name="lblTrendSymbol" Content="Trend Symbol" HorizontalAlignment="Left"  VerticalAlignment="Center"   Width="90"/>
+                <TextBox x:Name="tbxTrendSymbol" Text="TrendSymbol" TextWrapping="Wrap" Width="120"  TextAlignment="Center"  Background="#444444" BorderBrush="#FF2A2A2A" BorderThickness="2" VerticalAlignment="Center" Foreground="White"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="lbltrend_words" Content="trend_words" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
-                <TextBox x:Name="tbxtrend_words" Text="trend_words" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+                <Label x:Name="lbltrend_words" Content="trend_words" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="90"/>
+                <TextBox x:Name="tbxtrend_words" Text="trend_words" TextWrapping="Wrap" Width="120"  TextAlignment="Center"  Background="#444444" BorderBrush="#FF2A2A2A" BorderThickness="2" VerticalAlignment="Center" Foreground="White"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblmmol" Content="mmol" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
-                <TextBox x:Name="tbxmmol" Text="mmol" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+                <Label x:Name="lblmmol" Content="mmol" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="90"/>
+                <TextBox x:Name="tbxmmol" Text="mmol" TextWrapping="Wrap" Width="120"  TextAlignment="Center"  Background="#444444" BorderBrush="#FF2A2A2A" BorderThickness="2" VerticalAlignment="Center" Foreground="White"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label x:Name="lblfull" Content="full" HorizontalAlignment="Left"  VerticalAlignment="Center"/>
-                <TextBox x:Name="tbxfull" Text="full" TextWrapping="Wrap" Width="120"  VerticalAlignment="Center"/>
+                <Label x:Name="lblfull" Content="full" HorizontalAlignment="Left"  VerticalAlignment="Center" Width="90"/>
+                <TextBox x:Name="tbxfull" Text="full" TextWrapping="Wrap" Width="120"  TextAlignment="Center"  Background="#444444" BorderBrush="#FF2A2A2A" BorderThickness="2" VerticalAlignment="Center" Foreground="White"/>
             </StackPanel>
         </StackPanel>
 
