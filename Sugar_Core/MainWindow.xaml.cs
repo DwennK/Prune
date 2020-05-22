@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using System.Windows.Threading;
 using Newtonsoft.Json.Linq;
 
 
@@ -27,13 +27,23 @@ namespace Sugar_Core
         public MainWindow()
         {
             InitializeComponent();
-
-
             ParseJSON();
+
+            //Timer qui appelle ParseJSON pour mettre à jour les infos du JSON
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromMilliseconds(5000);
+            timer.Tick += timer_Tick;
+            timer.Start();
 
         }
 
-        private void ParseJSON()
+        void timer_Tick(object sender, EventArgs e)
+        {
+            ParseJSON();
+        }
+
+
+        public void ParseJSON()
         {
             string URL = "https://sugarmate.io/api/v1/4uuv8v/latest.json";
             using (WebClient wc = new WebClient())

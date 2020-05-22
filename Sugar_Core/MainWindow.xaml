@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sugar_Core"
         mc:Ignorable="d"
-        Title="Prune" Height="204" Width="300" ResizeMode="NoResize" Icon="prune-64.png" 
-        Background="#515151">
+        Title="Prune" Height="204" Width="250" ResizeMode="NoResize" Icon="prune-64.png" 
+        Background="#515151" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Vertical">
             <StackPanel Orientation="Horizontal">
